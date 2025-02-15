@@ -1,39 +1,62 @@
-IPL Match Winner Prediction
+🏏 IPL Match Winner Prediction
 
-Overview
+📌 Overview
 
-Predicting the outcome of an Indian Premier League (IPL) match using machine learning and data analysis. This project processes historical IPL match data, extracts key features, and applies machine learning models to predict match results based on various in-game parameters.
+Predict the outcome of an Indian Premier League (IPL) match using machine learning and data analysis. This project processes historical IPL match data, extracts key features, and applies ML models to predict match results based on various in-game parameters.
 
-Features
+✨ Features
 
-Data preprocessing and feature engineering from IPL datasets
+✅ Data Preprocessing & Feature Engineering from IPL datasets✅ Handling Missing Values and normalizing team names for consistency✅ Crucial Match Metrics Calculation (e.g., Current Run Rate (CRR), Required Run Rate (RRR), wickets left, balls left, etc.)✅ Machine Learning Models Applied: Logistic Regression & Random Forest Classifier✅ Performance Evaluation using accuracy scores and probability predictions✅ Interactive Match Progression Analysis for insights
 
-Handling missing values and normalizing team names for consistency
+📊 Dataset
 
-Calculation of crucial match metrics (e.g., Current Run Rate (CRR), Required Run Rate (RRR), wickets left, balls left, etc.)
+The project utilizes historical IPL match data from CSV files, including:
+📌 Match details: Teams, location, winner, scores, etc.📌 Ball-by-ball delivery data
 
-Application of machine learning techniques such as Logistic Regression and Random Forest Classifier
+⚙️ Model Implementation
 
-Performance evaluation using accuracy scores and probability predictions
+🔹 Preprocessing
 
-Interactive match progression analysis for insights
+🔹 Encoding categorical features (teams, venues)🔹 Handling missing data
 
-Dataset
+🔹 Feature Selection
 
-The project utilizes historical IPL match data from CSV files containing:
+🏏 Runs left, balls left, wickets, total runs, CRR, RRR
 
-Match details (teams, location, winner, scores, etc.)
+🔹 Training
 
-Ball-by-ball delivery data
+🎯 Logistic Regression model using sklearn.pipeline for data transformation and classification
 
-Model Implementation
+🔹 Evaluation
 
-Preprocessing: Encoding categorical features (teams, venues), handling missing data
+📊 Achieves ~80% accuracy in predicting match outcomes
 
-Feature Selection: Runs left, balls left, wickets, total runs, CRR, RRR
+🔹 Probability Prediction
 
-Training: Logistic Regression model using sklearn.pipeline for data transformation and classification
+🔢 Determines winning probability at different match stages
 
-Evaluation: Achieves ~80% accuracy in predicting match outcomes
+🚀 How to Use
 
-Probability Prediction: Determines winning probability at different match stages
+1️⃣ Clone the repository:
+
+git clone https://github.com/your-repo/IPL-Match-Prediction.git
+cd IPL-Match-Prediction
+
+2️⃣ Install dependencies:
+
+pip install -r requirements.txt
+
+3️⃣ Run the model:
+
+python predict.py
+
+📌 Future Enhancements
+
+🔹 Incorporate Deep Learning models for enhanced accuracy🔹 Add real-time match prediction API🔹 Improve visualizations with interactive dashboards
+
+🤝 Contributing
+
+Pull requests are welcome! Feel free to fork the repository and submit your improvements.
+
+🚀 Happy Predicting! 🏏
+
