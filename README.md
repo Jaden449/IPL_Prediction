@@ -8,7 +8,7 @@ Predict the outcome of an Indian Premier League (IPL) match using machine learni
 ✅ **Data Preprocessing & Feature Engineering** from IPL datasets  
 ✅ **Handling Missing Values** and normalizing team names for consistency  
 ✅ **Crucial Match Metrics Calculation** (e.g., Current Run Rate (CRR), Required Run Rate (RRR), wickets left, balls left, etc.)  
-✅ **Machine Learning Models Applied:** Logistic Regression & Random Forest Classifier  
+✅ **Machine Learning Models Applied:** Logistic Regression  
 ✅ **Performance Evaluation** using accuracy scores and probability predictions  
 ✅ **Interactive Match Progression Analysis** for insights  
 
